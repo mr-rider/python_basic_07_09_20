@@ -34,6 +34,8 @@ current_distance = distance
 while aim_distance > current_distance:
     current_distance += current_distance * 0.1
     aim_day +=1
-    #print(current_distance, aim_day)
+
+
+
 
 print(f'Ответ: на {aim_day}-й день спортсмен достиг результата — не менее {aim_distance} км.')
