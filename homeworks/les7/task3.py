@@ -25,11 +25,11 @@
 """
 
 class Cell:
-    cell_count = 0
+
     partition = 0
 
     def __init__(self, partition):
-        self.cell_count += 1
+
         self.partition = partition
 
     def __add__(self, other):
