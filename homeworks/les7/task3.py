@@ -57,7 +57,7 @@ class Cell:
             if count % number_cell_row != 0:
                 result_string += '*'
             elif count != self.partition:
-                result_string += '*\\n'
+                result_string += '*\n'
             else:
                 result_string += '*'
         return result_string
@@ -65,7 +65,7 @@ class Cell:
 
 
 if __name__ == '__main__':
-    cell1 = Cell(15)
+    cell1 = Cell(12)
     cell2 = Cell(2)
     print(cell1 + cell2)
     print(cell1 - cell2)
